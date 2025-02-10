@@ -12,5 +12,10 @@ namespace LDM_Config
             int c = a + b;
             Console.WriteLine("The sum of a and b is: " + c);
        }
+
+        static void Teste(string[] args){
+            Console.WriteLine("Testes novos");
+        }
+
     }
 }
