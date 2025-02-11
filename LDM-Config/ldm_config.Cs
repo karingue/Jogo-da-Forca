@@ -19,6 +19,31 @@ namespace LDM_Config
             int b = 20;
             int c = a + b;
             Console.WriteLine("The sum of a and b is: " + c);
+
+
+
+            public class Device
+            {
+                public string Name { get; set; }
+                public string Type { get; set; }
+                public string SerialNumber { get; set; }
+
+                public Device(string name, string type, string serialNumber)
+                {
+                    Name = name;
+                    Type = type;
+                    SerialNumber = serialNumber;
+                }
+
+                public void DisplayInfo()
+                {
+                    Console.WriteLine($"Name: {Name}, Type: {Type}, Serial Number: {SerialNumber}");
+                }
+            }
+
+            // Example usage
+            Device device = new Device("Printer", "Peripheral", "12345");
+            device.DisplayInfo();
         }
 
     }
