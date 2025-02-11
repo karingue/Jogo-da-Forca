@@ -47,6 +47,14 @@ namespace LDM_Config
 
             Device anotherDevice = new Device("Scanner", "Peripheral", "67890");
             anotherDevice.DisplayInfo();
+
+            Device thirdDevice = new Device("Monitor", "Peripheral", "54321");
+            thirdDevice.DisplayInfo();
+
+            Device fourthDevice = new Device("Keyboard", "Peripheral", "98765");
+            fourthDevice.DisplayInfo();
+
+
         }
 
     }
