@@ -25,4 +25,9 @@ function iniciarJogo(){
     letrasChutadas = [];
     tentativasRestantes = 6;
     numeroErros = 0;
+
+    //Atualizar a exibição
+    atualizarExibicao();
+    
+
 }
