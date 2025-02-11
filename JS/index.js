@@ -19,4 +19,10 @@ function iniciarJogo(){
     console.log(exibiçãoPalavra);
 
     window.load=iniciarJogo();
+
+
+    //Inicializar as variáveis
+    letrasChutadas = [];
+    tentativasRestantes = 6;
+    numeroErros = 0;
 }
