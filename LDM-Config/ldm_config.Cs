@@ -58,6 +58,10 @@ namespace LDM_Config
 
             Device sixthDevice = new Device("Speaker", "Peripheral", "24680");
             sixthDevice.DisplayInfo();
+
+            Device seventhDevice = new Device("Headset", "Peripheral", "112233");  
+            seventhDevice.DisplayInfo();
+
         }
 
     }
