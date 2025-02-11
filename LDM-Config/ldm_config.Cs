@@ -53,8 +53,8 @@ namespace LDM_Config
 
             Device fourthDevice = new Device("Keyboard", "Peripheral", "98765");
             fourthDevice.DisplayInfo();
-
-
+            Device fifthDevice = new Device("Mouse", "Peripheral", "13579");
+            fifthDevice.DisplayInfo();
         }
 
     }
