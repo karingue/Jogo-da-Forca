@@ -44,6 +44,9 @@ namespace LDM_Config
             // Example usage
             Device device = new Device("Printer", "Peripheral", "12345");
             device.DisplayInfo();
+
+            Device anotherDevice = new Device("Scanner", "Peripheral", "67890");
+            anotherDevice.DisplayInfo();
         }
 
     }
